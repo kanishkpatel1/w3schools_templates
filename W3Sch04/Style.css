@@ -1,0 +1,315 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav .left{
+    display: flex;
+    margin-left: -35vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav .left li{
+    padding-left: 15px;
+}
+.nav{
+    display: flex;
+    height: 8vh;
+    /* background: #847070; */
+    background: #c3badd;
+
+
+    justify-content: space-around;
+}
+.nav .right{
+    margin-right: -33vw;
+}
+.nav .right{
+    display: flex;
+    align-items: center;
+  
+
+}
+a{
+    color: white;
+}
+
+a:hover{
+    background: white;
+    color: black;
+    padding: 10px;
+    
+}
+
+.right li :hover{
+    padding: 10px;
+
+    background: red;
+
+
+}
+
+.backImg{
+
+    background-image: url("https://www.w3schools.com/w3images/hamburger.jpg");
+
+    height: 50vh;
+}
+.backImg h1{
+    text-align: center;
+    padding-top: 25vh;
+    letter-spacing: 10px;
+
+}
+
+/* main */
+
+.main{
+    margin-top: 5rem;
+}
+
+.main h1{
+    text-align: center;
+}
+.main h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 1rem;
+
+}
+.main .ptag{
+    margin-top: 1rem;
+    margin-left: 25rem;
+    width: 50vw;
+}
+.pictxt{
+    display: flex;
+    margin-left: 25rem;
+    margin-top: 2rem;
+ 
+}
+.txt{
+    margin-left: 2rem;
+}
+
+ .data li{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pictxt img{
+    margin-top: 3rem;
+    height: 200px;
+    width: 300px;
+}
+
+.pictxt .txt{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 27vw;
+}
+
+.rly{
+    padding-top: 2rem;
+}
+.photo{
+    margin-left: 25rem;
+    width: 750px;
+
+}
+.photo .shoot{
+    margin-top: 2rem;
+    background: #F1F1F1;
+}
+
+
+.shoot .pert{
+  
+    margin-top: 1rem;
+    height: 2.5rem;
+   
+}
+
+
+
+.shoot .pert{
+    background: #F1F1F1;
+
+
+}
+
+
+ .pert li{
+    padding-left: 20vw;
+    padding-top: 0.7rem;
+   
+
+}
+
+.ltr{
+    letter-spacing: 1rem;
+}
+
+#abc1{
+    background: #F1F1F1;
+    width: 100%;
+
+}
+#abc1{
+    background: #616161;
+    width: 90%;
+}
+
+#abc2{
+    background: #616161;
+    width: 85%;
+}
+#abc3{
+    background: #616161;
+    width: 70%;
+}
+.container{
+    margin-top: 4rem;
+    height: 20vh;
+    background: #616161;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container span li{
+    padding-top: 0.5rem;
+    color: white;;;
+    font-size: 1.2rem;
+}
+
+/* ImageSection */
+
+.imgSec h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+.imgSec h3{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.imgSec h4{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.imgSec .imgstrt{
+    margin-top: 3rem;
+    margin-left: 25rem;
+    width: 49.7vw;
+    /* background: red; */
+}
+
+
+ .imgstrt .imga{
+
+    display:flex;
+    height: 130px;
+    width: 210px;
+    gap: 0.7rem;
+}
+.imgstrt .imgb{
+
+    margin-top: 0.7rem;
+    display:flex;
+    height: 130px;
+    width: 200px;
+    gap: 0.7rem;
+
+}
+
+.lda{
+   margin-left: 20vw;
+    margin-top: 2rem;
+    padding:1rem;
+    border: 0.7px solid;
+    background: #F1F1F1;
+}
+
+
+.imgntr{
+    margin-top: 5rem;
+}
+.imgntr img{
+    height: 50vh;
+    width: 100vw;
+}
+.imgntr h1{
+    bottom: 250px;
+    position: relative;
+    color: white;
+}
+
+.plc{
+    margin-top: -6rem;
+}
+
+.plc .addplc .pc img{
+    height: 170px;
+    width: 300PX;
+}
+
+.addplc{
+    display: flex;
+    margin-left: 25vw;
+    margin-top: 3rem;
+}
+.addplc .addr{
+    margin-left: 1.2rem;
+    /* display: flex; */
+}
+.addplc .addr .chng{
+    margin-left: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.chng{
+    margin-top: 1.2rem;
+}
+
+.addr h4{
+    margin-top: 1.5rem;
+    margin-left: 1.9rem;
+}
+
+
+.tbl{
+    margin-top: 10rem;
+    margin-left: -17.9rem;
+    
+}
+
+.frst{
+    width: 430px;
+}
+.frst .ad input{
+    width: 215px;
+}
+.ab{
+   margin-top: 0.7rem; 
+}
+.inpi{
+    width:13.8vw;
+    height:2rem;
+}
+.inpj{
+    width:28vw;
+    height:2rem;
+}
+
+.sndmsg{
+    margin-top:1rem;
+    padding:0.7rem;
+    margin-left: 67.34vw;
+    background: black;
+    color: white;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: "Playfair Display";
+letter-spacing: 5px;
+}
+
+
+.navbar{
+height: 50px;
+/* background-color: black; */
+align-items: center;
+color: black;
+display: flex;
+justify-content: space-between;
+position: fixed;
+background-color: white;
+width: 100%;
+z-index: 100;
+
+}
+.left{
+margin-left: 10px;
+}
+.right{
+margin-right: 50px;
+}
+.left>a{
+letter-spacing: 5px;
+}
+.right>a{
+margin-right: 10px;
+
+}
+.right>a,.left>a{
+color: black;
+}
+a:hover{
+padding: 10px;
+background-color: blueviolet;
+}
+.header{
+position: relative;
+}
+.textover{
+position: absolute;
+bottom: 8px;
+left: 16px;
+}
+
+.about{
+margin-top: 100px;
+display: flex;
+margin-left: 200px;
+margin-right: 200px;
+}
+.aboutimg{
+margin-right: 50px;
+}
+.abouttext{
+margin-top: 20px;
+margin-right: 50px;
+}
+.w3-center{
+    text-align: center;
+}
+.abp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mgh{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.w3-text-grey{
+    color: gray;
+}
+.contact{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.mgha{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.w3-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.w3-button{
+    border: none;
+    padding: 10px;
+    background-color: #ccc;
+
+    color: black;
+}
+.w3-button:hover{
+    cursor: pointer;
+    background-color: #867f7f;
+
+   
+}
+.footer{
+    height: 50px;
+    background-color: #867f7f;
+    padding: 30px;
+}
+.footer>p{
+    
+    text-align: center;
+}

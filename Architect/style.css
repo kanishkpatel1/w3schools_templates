@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+   display: flex;
+    height: 50px;
+    /* background-color: rgb(110, 103, 103); */
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+.right{
+ margin-right: 50px;
+
+}
+.left>a,.right>a{
+    letter-spacing: 3px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.left>a:hover,.right>a:hover{
+    background-color:rgb(110, 103, 103) ;
+    padding: 10px;
+}
+.header{
+    position: relative;
+    }
+    .textover{
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    }
+
+    .brmin{
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        padding: 10px;
+    }
+    .brmin,.imgtxt{
+        letter-spacing: 5px;
+        color: white;
+
+    }
+    .projects{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .imgs{
+        position: relative;
+    }
+    .textimg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        background-color: black;
+        color: white;
+    }
+    .row1{
+        display: flex;
+      
+        
+
+    }
+    .imgs{
+        margin: 10px;
+    }
+    .about{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .abpics{
+        display: flex;
+    }
+    .gray{
+        color: gray;
+    }
+    .cardpic{
+        margin: 10px;
+    }
+    .abmg{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .contactbtn{
+        width: 100%;
+        background-color: rgb(184, 174, 174);
+        padding: 10px;
+        border: none;
+    }
+    .contactbtn:hover{
+        background-color: rgb(119, 111, 111);
+        cursor: pointer;
+    }
+    .contactbc{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 220px;
+
+    }
+    .inputfor{
+        display: block;
+        padding: 8px;
+        width: 100%;
+    }
+    .sendbtn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    .sendbtn:hover{
+        background-color: rgb(119, 111, 111);
+        cursor: pointer;
+        color: black;
+    }
+    .footerend{
+        height: 50px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        padding: 20px;
+        background-color: black;
+    }
+    .footerend>a{
+        color: white;
+    }
